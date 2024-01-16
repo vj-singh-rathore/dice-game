@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    text-align: center;
+
+    background: linear-gradient(90deg, rgba(19, 79, 59, 0.63), rgba(112, 157, 13, 0.598));
+    /* display: flex;
+    align-items: center; */
+}
+
+.gameName {
+    color: whitesmoke;
+    font-size: 4em;
+
+}
+
+.container {
+    /* margin-top: 8%; */
+    display: flex;
+    margin: auto;
+    text-align: center;
+    color: gold;
+    justify-content: center;
+    /* height: 800px; */
+    /* align-items: center; */
+
+}
+
+.playerbox,
+.resultbox {
+    background-color: rgb(0, 56, 0);
+    margin: 3%;
+    border: goldenrod solid 5px;
+    border-radius: 50px;
+
+}
+
+.playerName,
+.result {
+    padding: 5%;
+    font-weight: bold;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.dice {
+    animation: rotate 0.5s linear 1;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(359deg)
+    }
+}
+
+/* .p1score, .p2score,.score{
+    font-size: xx-large;
+} */
+.resultbox:hover {
+    box-shadow: 0 0 40px white;
+
+}
+
+
+.shadow {
+    box-shadow: 0 0 40px white;
+
+}
+
+
+button {
+    width: 30%;
+    height: 50px;
+    margin: 8%
+}
